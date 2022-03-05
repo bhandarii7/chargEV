@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #001220;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: x-large;
+    margin: 0 1rem;
+    color: white;
+}
+
+button{
+    font-size: large;
+    padding: 0.5rem;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#map{
+    width: 100vw;
+    height: 90vh;
+   
+}
